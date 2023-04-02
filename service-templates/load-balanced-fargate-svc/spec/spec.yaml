@@ -5,4 +5,4 @@ pipeline:
   unit_test_command: echo 'add your unit test command here'
 instances:
   - name: load-balanced-fargate-svc-dev
-    environment: icici-poc-dev
+    environment: "icici-poc-dev"
